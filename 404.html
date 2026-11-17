@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evergreen Paws — Redirecting...</title>
+    <script>
+      (function () {
+        var path = window.location.pathname || "/";
+        if (/^\/babychloe/i.test(path)) {
+          window.location.replace("/Babychloe/" + window.location.search + window.location.hash);
+        } else {
+          window.location.replace("/" + window.location.search + window.location.hash);
+        }
+      })();
+    </script>
+    <meta http-equiv="refresh" content="0;url=/Babychloe/" />
+  </head>
+  <body>
+    <p>Redirecting to <a href="/Babychloe/">Evergreen Paws</a>...</p>
+  </body>
+</html>
